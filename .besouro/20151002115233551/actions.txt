@@ -125,3 +125,7 @@ EditAction 1443782069343 SudokuVerifier.java 1784 4 13 0
 UnitTestCaseAction 1443782074783 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443782074784 TestSudokuVerifier FAIL
 EditAction 1443782403914 SudokuVerifier.java 1717 4 13 0
+UnitTestCaseAction 1443782409126 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443782409127 TestSudokuVerifier OK
+RefactoringAction 1443782466523 SudokuVerifier.java ADD void validateSolutionLength(String) METHOD
+EditAction 1443782466534 SudokuVerifier.java 1835 5 14 0

@@ -7,8 +7,7 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		
-		if (verifyAnswerLength(candidateSolution) == 0)
-			return -1;
+		validateSolutionLength(candidateSolution);
 		
 		for (Character solutionDigit : candidateSolution.toCharArray()){
 			if (Character.isDigit(solutionDigit) == false)
@@ -27,6 +26,11 @@ public class SudokuVerifier {
 			return -1;
 		else
 			return 0;
+	}
+
+	private void validateSolutionLength(String candidateSolution) {
+		if (verifyAnswerLength(candidateSolution) == 0)
+			return -1;
 	}
 	
 	public int verifyRow(String candidateRow) {
