@@ -12,6 +12,7 @@ public class SudokuVerifier {
 		
 		for (char solutionDigit : candidateSolution.toCharArray()){
 			if (Character.getNumericValue(solutionDigit) == -1)
+				System.out.println(Character.getNumericValue(solutionDigit));
 				return -1;
 		}
 		
