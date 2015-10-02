@@ -1,0 +1,10 @@
+FileOpenedAction 1443775953708 TestSudokuVerifier.java 216 1 1 0
+RefactoringAction 1443775974060 TestSudokuVerifier.java RENAME test()=>void testIf() METHOD
+RefactoringAction 1443775976574 TestSudokuVerifier.java RENAME testIf()=>void testIfVerify() METHOD
+RefactoringAction 1443775986583 TestSudokuVerifier.java RENAME testIfVerify()=>void testIfVerifyMethodRuns() METHOD
+RefactoringAction 1443776405004 TestSudokuVerifier.java RENAME testIfVerifyMethodRuns()=>void testIfVer() METHOD
+RefactoringAction 1443776408520 TestSudokuVerifier.java RENAME testIfVer()=>void testIfVerifyMeho() METHOD
+RefactoringAction 1443776421031 TestSudokuVerifier.java RENAME testIfVerifyMeho()=>void testIfVerifyMe() METHOD
+RefactoringAction 1443776425544 TestSudokuVerifier.java RENAME testIfVerifyMe()=>void testIfVerifyMethodAcceptsCorrect() METHOD
+RefactoringAction 1443776427552 TestSudokuVerifier.java RENAME testIfVerifyMethodAcceptsCorrect()=>void testIfVerifyMethodAcceptsCorrectSolution() METHOD
+EditAction 1443776662093 TestSudokuVerifier.java 435 1 3 1
