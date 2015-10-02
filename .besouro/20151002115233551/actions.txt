@@ -38,3 +38,4 @@ RefactoringAction 1443778769970 SudokuVerifier.java ADD static List<String> spli
 RefactoringAction 1443779123653 TestSudokuVerifier.java RENAME testIfFirstCorrectRowIsValid()=>void testIfFirstRowsAreIsValid() METHOD
 RefactoringAction 1443779126162 TestSudokuVerifier.java RENAME testIfFirstRowsAreIsValid()=>void testIfFirstRowsAreValid() METHOD
 EditAction 1443779132165 SudokuVerifier.java 984 3 7 0
+EditAction 1443779138202 TestSudokuVerifier.java 707 2 6 2
