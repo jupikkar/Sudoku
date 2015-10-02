@@ -18,3 +18,19 @@ RefactoringAction 1443777365610 TestSudokuVerifier.java RENAME test=>void testIf
 RefactoringAction 1443777371277 TestSudokuVerifier.java RENAME testIfFirstRowIsValid=>void testIfFirstRowIsValid() METHOD
 EditAction 1443777424519 SudokuVerifier.java 202 1 1 0
 EditAction 1443777430736 TestSudokuVerifier.java 659 2 5 1
+RefactoringAction 1443777484965 TestSudokuVerifier.java RENAME testIfFirstRowIsValid()=>void testIfFirstCorrectRowIsValid() METHOD
+UnitTestCaseAction 1443777496362 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777496363 TestSudokuVerifier OK
+RefactoringAction 1443777529873 SudokuVerifier.java ADD int verifyRow FIELD
+RefactoringAction 1443777532380 SudokuVerifier.java RENAME verifyRow=>int verifyRow() METHOD
+RefactoringAction 1443777535888 SudokuVerifier.java RENAME verifyRow()=>int verifyRow(String) METHOD
+RefactoringAction 1443777835522 SudokuVerifier.java ADD static List<String> getParts(String, int) METHOD
+RefactoringAction 1443777958170 SudokuVerifier.java ADD import java.util.List IMPORT
+RefactoringAction 1443777962581 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1443777996631 SudokuVerifier.java RENAME getParts(String, int)=>static List<String> getRows(String, int) METHOD
+RefactoringAction 1443778030147 SudokuVerifier.java ADD void verifyRow() METHOD
+RefactoringAction 1443778032663 SudokuVerifier.java REMOVE verifyRow() METHOD
+RefactoringAction 1443778040188 SudokuVerifier.java ADD void verifyRow() METHOD
+RefactoringAction 1443778042220 SudokuVerifier.java REMOVE verifyRow() METHOD
+RefactoringAction 1443778545412 SudokuVerifier.java REMOVE getRows(String, int) METHOD
+EditAction 1443778556437 SudokuVerifier.java 276 2 2 0
