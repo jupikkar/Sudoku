@@ -21,7 +21,7 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyRow(String candidateRow) {
-		return 0;
+		return 1;
 	}
 	
 	//Credit for splitting method to Jon Skeet:
