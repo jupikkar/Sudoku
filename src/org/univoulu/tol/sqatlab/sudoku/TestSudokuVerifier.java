@@ -22,6 +22,13 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testIfVerificationFailsWithTooFewCharacters(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		String tooManyDigits = "417369825632158943571573291684164875293";
+		assertEquals(-1, sudoku.verify(tooManyDigits));
+	}
+	
+	@Test
 	public void testIfAllRowsAreInvalidWithIncorrectString() {
 		
 		SudokuVerifier sudoku = new SudokuVerifier(); 
