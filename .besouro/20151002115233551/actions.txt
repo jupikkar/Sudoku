@@ -129,3 +129,7 @@ UnitTestCaseAction 1443782409126 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443782409127 TestSudokuVerifier OK
 RefactoringAction 1443782466523 SudokuVerifier.java ADD void validateSolutionLength(String) METHOD
 EditAction 1443782466534 SudokuVerifier.java 1835 5 14 0
+CompilationAction 1443782470927 SudokuVerifier.java
+RefactoringAction 1443782588402 SudokuVerifier.java REMOVE validateSolutionLength(String) METHOD
+UnitTestCaseAction 1443782617881 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443782617882 TestSudokuVerifier OK
