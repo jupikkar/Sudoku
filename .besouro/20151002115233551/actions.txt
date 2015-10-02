@@ -48,3 +48,8 @@ EditAction 1443779233461 SudokuVerifier.java 1035 3 8 0
 UnitTestCaseAction 1443779240656 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443779240657 TestSudokuVerifier FAIL
 EditAction 1443779364943 SudokuVerifier.java 1067 3 9 0
+UnitTestCaseAction 1443779372412 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443779372413 TestSudokuVerifier FAIL
+RefactoringAction 1443779407221 TestSudokuVerifier.java RENAME testIfFirstRowsAreValid()=>void testIfRowsAreValid() METHOD
+RefactoringAction 1443779409233 TestSudokuVerifier.java RENAME testIfRowsAreValid()=>void testIfAllRowsAreValid() METHOD
+EditAction 1443779412807 TestSudokuVerifier.java 705 2 6 2
