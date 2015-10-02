@@ -8,10 +8,13 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		
 		List<String> rows = splitEqually(candidateSolution, 9);
+		String correctRows = "";
 		
 		for (String row : rows){
-			verifyRow(row.toString());
+			correctRows += verifyRow(row.toString());
 		}
+		
+		
 		return 1;
 	}
 	
