@@ -34,3 +34,7 @@ RefactoringAction 1443778040188 SudokuVerifier.java ADD void verifyRow() METHOD
 RefactoringAction 1443778042220 SudokuVerifier.java REMOVE verifyRow() METHOD
 RefactoringAction 1443778545412 SudokuVerifier.java REMOVE getRows(String, int) METHOD
 EditAction 1443778556437 SudokuVerifier.java 276 2 2 0
+RefactoringAction 1443778769970 SudokuVerifier.java ADD static List<String> splitEqually(String, int) METHOD
+RefactoringAction 1443779123653 TestSudokuVerifier.java RENAME testIfFirstCorrectRowIsValid()=>void testIfFirstRowsAreIsValid() METHOD
+RefactoringAction 1443779126162 TestSudokuVerifier.java RENAME testIfFirstRowsAreIsValid()=>void testIfFirstRowsAreValid() METHOD
+EditAction 1443779132165 SudokuVerifier.java 984 3 7 0
