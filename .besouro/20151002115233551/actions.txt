@@ -73,3 +73,4 @@ UnitTestSessionAction 1443780190874 TestSudokuVerifier FAIL
 RefactoringAction 1443780422594 TestSudokuVerifier.java RENAME testIfAllRowsAreInalidWithIncorrectString()=>void testIfAllRowsAreInvalidWithIncorrectString() METHOD
 RefactoringAction 1443780555185 TestSudokuVerifier.java ADD void testIfVerificationFailsWithTooManyCharacters() METHOD
 EditAction 1443780690292 SudokuVerifier.java 1326 3 10 0
+EditAction 1443780694691 TestSudokuVerifier.java 994 3 6 2
