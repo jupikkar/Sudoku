@@ -10,7 +10,7 @@ public class SudokuVerifier {
 		if (verifyAnswerLength(candidateSolution) == 0)
 			return -1;
 		
-		for (Character solutionDigit : candidateSolution.toCharArray()){
+		for (char solutionDigit : candidateSolution.toCharArray()){
 			if (Character.getNumericValue(solutionDigit) == -1)
 				return -1;
 		}
