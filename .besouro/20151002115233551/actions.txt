@@ -94,3 +94,6 @@ UnitTestSessionAction 1443780908745 TestSudokuVerifier FAIL
 RefactoringAction 1443780919096 TestSudokuVerifier.java ADD void testIfVerificationFailsWithTooManyCharacters()/2 METHOD
 RefactoringAction 1443780930606 TestSudokuVerifier.java RENAME testIfVerificationFailsWithTooManyCharacters()/2=>void testIfVerificationFailsWithTooFewCharacters() METHOD
 EditAction 1443780934967 TestSudokuVerifier.java 1269 4 12 4
+UnitTestCaseAction 1443780940343 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443780940344 TestSudokuVerifier FAIL
+EditAction 1443780945785 TestSudokuVerifier.java 1268 4 12 4
