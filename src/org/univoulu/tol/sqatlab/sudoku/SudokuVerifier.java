@@ -7,6 +7,7 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		
+		
 		List<String> rows = splitEqually(candidateSolution, 9);
 		String correctRows = "";
 		
@@ -15,9 +16,9 @@ public class SudokuVerifier {
 		}
 		
 		if (correctRows.contains("0"))
-			return 0;
+			return -1;
 		else
-			return 1;
+			return 0;
 	}
 	
 	public int verifyRow(String candidateRow) {
