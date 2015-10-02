@@ -10,9 +10,8 @@ public class SudokuVerifier {
 		if (verifyAnswerLength(candidateSolution) == 0)
 			return -1;
 		
-		for (char solutionDigit : candidateSolution.toCharArray()){
-			if (Character.getNumericValue(solutionDigit) == -1)
-				System.out.println(Character.getNumericValue(solutionDigit));
+		for (Character solutionDigit : candidateSolution.toCharArray()){
+			if (Character.isDigit(solutionDigit) == false)
 				return -1;
 		}
 		
