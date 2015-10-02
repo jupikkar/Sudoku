@@ -102,3 +102,7 @@ CompilationAction 1443780971471 TestSudokuVerifier.java
 UnitTestCaseAction 1443780972848 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443780972849 TestSudokuVerifier FAIL
 EditAction 1443781238498 TestSudokuVerifier.java 1267 4 12 4
+UnitTestCaseAction 1443781246549 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443781246550 TestSudokuVerifier OK
+RefactoringAction 1443781364273 TestSudokuVerifier.java ADD void testIfAnswerIsInvalidWithLettersInSolution() METHOD
+EditAction 1443781423819 SudokuVerifier.java 1569 4 12 0

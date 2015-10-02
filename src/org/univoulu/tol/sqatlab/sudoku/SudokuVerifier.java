@@ -9,6 +9,7 @@ public class SudokuVerifier {
 		
 		if (verifyAnswerLength(candidateSolution) == 0)
 			return -1;
+		
 		List<String> rows = splitEqually(candidateSolution, 9);
 		String correctRows = "";
 		
