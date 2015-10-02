@@ -21,6 +21,17 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyRow(String candidateRow) {
+		
+		int[] numbers = {1,2,3,4,5,6,7,8,9};
+		for (int number : numbers){
+			int count = 0;
+			if (count > 1)
+				return 0;
+			for (char answer : candidateRow.toCharArray()){
+				if (number == answer)
+					count++;
+			}
+		}
 		return 1;
 	}
 	
