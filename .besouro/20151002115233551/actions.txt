@@ -78,3 +78,11 @@ CompilationAction 1443780701496 TestSudokuVerifier.java
 CompilationAction 1443780701497 TestSudokuVerifier.java
 CompilationAction 1443780701498 TestSudokuVerifier.java
 EditAction 1443780721947 TestSudokuVerifier.java 1023 3 9 3
+UnitTestCaseAction 1443780727316 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443780727317 TestSudokuVerifier FAIL
+RefactoringAction 1443780769774 SudokuVerifier.java ADD int verify FIELD
+RefactoringAction 1443780772287 SudokuVerifier.java RENAME verify=>int ve FIELD
+RefactoringAction 1443780775799 SudokuVerifier.java RENAME ve=>int verifyAnswerLength FIELD
+RefactoringAction 1443780777317 SudokuVerifier.java RENAME verifyAnswerLength=>int verifyAnswerLength() METHOD
+RefactoringAction 1443780788344 SudokuVerifier.java RENAME verifyAnswerLength()=>int verifyAnswerLength(String) METHOD
+EditAction 1443780889581 SudokuVerifier.java 1565 4 12 0

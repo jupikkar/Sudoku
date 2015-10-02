@@ -7,7 +7,8 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		
-		
+		if (verifyAnswerLength(candidateSolution) == 0)
+			return -1;
 		List<String> rows = splitEqually(candidateSolution, 9);
 		String correctRows = "";
 		
@@ -47,6 +48,13 @@ public class SudokuVerifier {
 	        ret.add(text.substring(start, Math.min(text.length(), start + size)));
 	    }
 	    return ret;
+	}
+	
+	public int verifyAnswerLength(String candidateSolution){
+		if (candidateSolution.length() > 81 || candidateSolution.length() < 81)
+			return 0;
+		else
+			return 1;
 	}
 
 }
