@@ -39,3 +39,6 @@ RefactoringAction 1443779123653 TestSudokuVerifier.java RENAME testIfFirstCorrec
 RefactoringAction 1443779126162 TestSudokuVerifier.java RENAME testIfFirstRowsAreIsValid()=>void testIfFirstRowsAreValid() METHOD
 EditAction 1443779132165 SudokuVerifier.java 984 3 7 0
 EditAction 1443779138202 TestSudokuVerifier.java 707 2 6 2
+UnitTestCaseAction 1443779143410 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443779143411 TestSudokuVerifier OK
+EditAction 1443779156154 TestSudokuVerifier.java 707 2 6 2
