@@ -74,3 +74,7 @@ RefactoringAction 1443780422594 TestSudokuVerifier.java RENAME testIfAllRowsAreI
 RefactoringAction 1443780555185 TestSudokuVerifier.java ADD void testIfVerificationFailsWithTooManyCharacters() METHOD
 EditAction 1443780690292 SudokuVerifier.java 1326 3 10 0
 EditAction 1443780694691 TestSudokuVerifier.java 994 3 6 2
+CompilationAction 1443780701496 TestSudokuVerifier.java
+CompilationAction 1443780701497 TestSudokuVerifier.java
+CompilationAction 1443780701498 TestSudokuVerifier.java
+EditAction 1443780721947 TestSudokuVerifier.java 1023 3 9 3
