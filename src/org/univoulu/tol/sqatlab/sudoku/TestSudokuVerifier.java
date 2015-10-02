@@ -29,6 +29,13 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testIfAnswerIsInvalidWithLettersInSolution(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		String StringAndLetter = "k17369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		assertEquals(-1, sudoku.verify(StringAndLetter));
+	}
+	
+	@Test
 	public void testIfAllRowsAreInvalidWithIncorrectString() {
 		
 		SudokuVerifier sudoku = new SudokuVerifier(); 
