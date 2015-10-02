@@ -14,7 +14,7 @@ public class SudokuVerifier {
 			correctRows += verifyRow(row.toString());
 		}
 		
-		
+		System.out.println(correctRows);
 		return 1;
 	}
 	
