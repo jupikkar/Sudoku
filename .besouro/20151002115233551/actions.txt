@@ -17,3 +17,4 @@ RefactoringAction 1443777358101 TestSudokuVerifier.java ADD void test FIELD
 RefactoringAction 1443777365610 TestSudokuVerifier.java RENAME test=>void testIfFirstRowIsValid FIELD
 RefactoringAction 1443777371277 TestSudokuVerifier.java RENAME testIfFirstRowIsValid=>void testIfFirstRowIsValid() METHOD
 EditAction 1443777424519 SudokuVerifier.java 202 1 1 0
+EditAction 1443777430736 TestSudokuVerifier.java 659 2 5 1

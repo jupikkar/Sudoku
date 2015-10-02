@@ -13,5 +13,13 @@ public class TestSudokuVerifier {
 		String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(1, sudoku.verify(correctString));
 	}
+	
+	@Test
+	public void testIfFirstRowIsValid() {
+		
+		SudokuVerifier sudoku = new SudokuVerifier(); 
+		String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		
+	}
 
 }
