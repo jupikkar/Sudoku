@@ -18,7 +18,7 @@ public class TestSudokuVerifier {
 	public void testIfVerificationFailsWithTooManyCharacters(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		String tooManyDigits = "417369825632158947958724316825437169791586432346912723432458289643571573291684164875293";
-		assertEquals(0, sudoku.verify(tooManyDigits));
+		assertEquals(-1, sudoku.verify(tooManyDigits));
 	}
 	
 	@Test
