@@ -53,3 +53,4 @@ UnitTestSessionAction 1443779372413 TestSudokuVerifier FAIL
 RefactoringAction 1443779407221 TestSudokuVerifier.java RENAME testIfFirstRowsAreValid()=>void testIfRowsAreValid() METHOD
 RefactoringAction 1443779409233 TestSudokuVerifier.java RENAME testIfRowsAreValid()=>void testIfAllRowsAreValid() METHOD
 EditAction 1443779412807 TestSudokuVerifier.java 705 2 6 2
+EditAction 1443779468620 SudokuVerifier.java 1088 3 8 0

@@ -14,8 +14,10 @@ public class SudokuVerifier {
 			correctRows += verifyRow(row.toString());
 		}
 		
-		System.out.println(correctRows);
-		return 1;
+		if (correctRows.contains("0"))
+			return 0;
+		else
+			return 1;
 	}
 	
 	public int verifyRow(String candidateRow) {
